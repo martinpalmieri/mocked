@@ -18,20 +18,20 @@
         "max": "2020-12-31T23:59:59Z"
       }
     },
-    "clientId": { "int": { "min": 0, "max": 50 } },
-    "serviceId": { "int": { "min": 0, "max": 50 } }
+    "clientId": { "int": { "min": 1, "max": 50 } },
+    "serviceId": { "int": { "min": 1, "max": 50 } }
   },
   "Client": {
     "name": {
       "regexp": "[A-Z][a-z]{5,10}"
     },
-    "id": { "int": { "min": 0, "max": 50 } }
+    "id": { "int": { "min": 1, "max": 50 } }
   },
   "Category": {
     "name": {
       "string": ["Male", "Female"]
     },
-    "id": { "int": { "min": 0, "max": 2 } }
+    "id": { "int": { "min": 1, "max": 2 } }
   },
   "Treatment": {
     "name": {
@@ -42,6 +42,6 @@
     },
     "duration": { "int": { "min": 0, "max": 90 } },
     "price": { "int": { "min": 0, "max": 100 } },
-    "id": { "int": { "min": 0, "max": 2 } }
+    "id": { "int": { "min": 1, "max": 2 } }
   }
 }
