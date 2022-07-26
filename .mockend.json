@@ -31,8 +31,7 @@
     "name": {
       "string": ["Male", "Female"]
     },
-    "id": { "int": { "min": 0, "max": 2 } },
-    "max": 2
+    "id": { "int": { "min": 0, "max": 2 } }
   },
   "Treatment": {
     "name": {
