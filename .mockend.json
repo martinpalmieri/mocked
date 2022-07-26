@@ -23,11 +23,11 @@
   },
   "Client": {
     "name": {
-      "string": ["Bob Belcher", "Homero Thompson", "Cosme Fulanito"]
+      "regexp": "[A-Z][a-z]{5,10}"
     },
     "id": { "int": { "min": 0, "max": 50 } }
   },
-  "TreatmentCategory": {
+  "Category": {
     "name": {
       "string": ["Male", "Female"]
     },
