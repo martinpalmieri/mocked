@@ -1,31 +1,26 @@
 {
   "Appointment": {
-    "date": {
-      "dateTime": {
-        "min": "2022-07-27T00:00:00Z",
-        "max": "2022-07-31T23:59:59Z"
-      }
-    },
-    "from": {
+    "id": { "int": { "min": 1, "max": 50 } },
+    "start": {
       "dateTime": {
         "min": "2010-01-01T00:00:00Z",
         "max": "2020-12-31T23:59:59Z"
       }
     },
-    "to": {
+    "end": {
       "dateTime": {
         "min": "2010-01-01T00:00:00Z",
         "max": "2020-12-31T23:59:59Z"
       }
     },
+    "price": { "int": { "min": 0, "max": 100 } },
     "clientId": { "int": { "min": 1, "max": 50 } },
-    "serviceId": { "int": { "min": 1, "max": 50 } }
+    "treatmentsIds": { "int": { "min": 1, "max": 50 } }
   },
   "Client": {
     "name": {
       "regexp": "[A-Z][a-z]{5,10}"
-    },
-    "id": { "int": { "min": 1, "max": 50 } }
+    }
   },
   "Category": {
     "name": {
