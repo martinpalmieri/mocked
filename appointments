@@ -1,0 +1,131 @@
+{
+  "dates": [
+    {
+      "day": "June 20 - Today",
+      "appointments": [
+        {
+          "time": {
+            "from": "11:30",
+            "to": "12:15"
+          },
+          "clientId": 2,
+          "price": "€45",
+          "servicesIds": [1, 2]
+        },
+        {
+          "time": {
+            "from": "12:30",
+            "to": "13:00"
+          },
+          "clientId": 1,
+          "price": "€25",
+          "servicesIds": [1]
+        },
+        {
+          "time": {
+            "from": "13:30",
+            "to": "14:15"
+          },
+          "clientId": 3,
+          "price": "€45",
+          "servicesIds": [1, 2]
+        },
+        {
+          "time": {
+            "from": "15:30",
+            "to": "16:00"
+          },
+          "clientId": 2,
+          "price": "€20",
+          "servicesIds": [2]
+        }
+      ]
+    },
+    {
+      "day": "June 21 - Tomorrow",
+      "appointments": [
+        {
+          "time": {
+            "from": "12:30",
+            "to": "13:00"
+          },
+          "clientId": 1,
+          "price": "€25",
+          "servicesIds": [1]
+        },
+        {
+          "time": {
+            "from": "13:30",
+            "to": "14:15"
+          },
+          "clientId": 3,
+          "price": "€45",
+          "servicesIds": [1, 2]
+        },
+        {
+          "time": {
+            "from": "15:30",
+            "to": "16:00"
+          },
+          "clientId": 2,
+          "price": "€20",
+          "servicesIds": [2]
+        },
+        {
+          "time": {
+            "from": "12:30",
+            "to": "13:00"
+          },
+          "clientId": 1,
+          "price": "€25",
+          "servicesIds": [1]
+        },
+        {
+          "time": {
+            "from": "13:30",
+            "to": "14:15"
+          },
+          "clientId": 3,
+          "price": "€45",
+          "servicesIds": [1, 2]
+        },
+        {
+          "time": {
+            "from": "15:30",
+            "to": "16:00"
+          },
+          "clientId": 2,
+          "price": "€20",
+          "servicesIds": [2]
+        },
+        {
+          "time": {
+            "from": "12:30",
+            "to": "13:00"
+          },
+          "clientId": 1,
+          "price": "€25",
+          "servicesIds": [1]
+        },
+        {
+          "time": {
+            "from": "13:30",
+            "to": "14:15"
+          },
+          "clientId": 3,
+          "price": "€45",
+          "servicesIds": [1, 2]
+        },
+        {
+          "time": {
+            "from": "15:30",
+            "to": "16:00"
+          },
+          "clientId": 2,
+          "price": "€20",
+          "servicesIds": [2]
+        }
+      ]
+    }
+  ]
+}
