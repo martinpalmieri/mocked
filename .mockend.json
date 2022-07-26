@@ -1,0 +1,49 @@
+{
+  "Appointment": {
+    "time": {
+      "date": {
+        "dateTime": {
+          "min": "2022-07-26T00:00:00Z",
+          "max": "2022-09-31T23:59:59Z"
+        }
+      },
+      "from": {
+        "dateTime": {
+          "min": "2022-07-26T09:00:00Z",
+          "max": "2022-09-31T17:00:00Z"
+        }
+      },
+      "to": {
+        "dateTime": {
+          "min": "2022-07-26T00:00:00Z",
+          "max": "2022-09-31T23:59:59Z"
+        }
+      }
+    },
+    "clientId": { "int": { "min": 0, "max": 50 } },
+    "serviceId": { "int": { "min": 0, "max": 50 } }
+  },
+  "Client": {
+    "name": {
+      "string": ["Bob Belcher", "Homero Thompson", "Cosme Fulanito"]
+    },
+    "id": { "int": { "min": 0, "max": 50 } }
+  },
+  "TreatmentCategory": {
+    "name": {
+      "string": ["Male", "Female"]
+    },
+    "id": { "int": { "min": 0, "max": 2 } }
+  },
+  "Treatment": {
+    "name": {
+      "string": ["Haircut", "Beard Trim"]
+    },
+    "tag": {
+      "string": ["one", "two", "three"]
+    },
+    "duration": { "int": { "min": 0, "max": 90 } },
+    "price": { "int": { "min": 0, "max": 1000 } },
+    "id": { "int": { "min": 0, "max": 2 } }
+  }
+}
