@@ -41,7 +41,7 @@
       "string": ["one", "two", "three"]
     },
     "duration": { "int": { "min": 0, "max": 90 } },
-    "price": { "int": { "min": 0, "max": 1000 } },
+    "price": { "int": { "min": 0, "max": 100 } },
     "id": { "int": { "min": 0, "max": 2 } }
   }
 }
